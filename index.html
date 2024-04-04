@@ -8,8 +8,61 @@
       name="description"
       content="As humans we all have different types of skin, whether it's oily, dry, or combination. Each type needs a routine that fits it well and accodates to its needs."
     />
+    <style>
+      .main-btn {
+        color: white;
+        background-color: #f24822;
+        border: #f24822 1px;
+        border-radius: 5px;
+        padding: 10px 15px;
+      }
+      .grid {
+        display: grid;
+      }
+      .grid-4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      .main-img {
+        width: 100%;
+      }
+      .main-title {
+        background-color: #fcf4d7;
+        padding: 30px;
+      }
+      h1 {
+        font-size: 40px;
+        padding-bottom: 50px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Skin Care owo</h1>
+    <nav></nav>
+    <main>
+      <section class="grid grid-4">
+        <div>
+          <img
+            src="
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/121/854/original/pexels-shiny-diamond-3762875.jpg?1712267467"
+            class="main-img"
+          />
+        </div>
+        <div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/121/856/original/pexels-anna-shvets-3851905.jpg?1712267485"
+            class="main-img"
+          />
+        </div>
+        <div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/121/855/original/pexels-shiny-diamond-3762878.jpg?1712267471"
+            class="main-img"
+          />
+        </div>
+        <div class="main-title">
+          <h1>Find<br />your <br />glow.</h1>
+          <button class="main-btn">Discover your routine</button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
