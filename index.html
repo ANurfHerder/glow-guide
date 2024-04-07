@@ -9,7 +9,14 @@
       content="As humans we all have different types of skin, whether it's oily, dry, or combination. Each type needs a routine that fits it well and accodates to its needs."
     />
     <style>
+      body {
+      }
       main {
+        margin: 0 auto;
+      }
+      .section-width {
+        max-width: 1400px;
+        display: block;
         margin: 0 auto;
       }
       .main-btn {
@@ -74,13 +81,18 @@
       }
       /* Glass Skin Section */
       .glass-bio {
-        margin-top: 100px;
+        padding-top: 100px;
         background-color: #fcf4d7;
         text-align: center;
       }
       h3 {
         color: #f24822;
         font-size: 30px;
+      }
+      .skin-content {
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
       }
     </style>
   </head>
@@ -113,7 +125,7 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/121/855/origina
           <button class="main-btn">Discover your routine</button>
         </div>
       </section>
-      <section class="main-type">
+      <section class="main-type section-width">
         <div>
           <h2>Select your skin type</h2>
           <div class="grid grid-3">
@@ -135,15 +147,24 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/122/202/origina
           <button class="main-btn skin-btn">Discover your skin type</button>
         </div>
       </section>
-      <section>
+      <section class="section-width">
         <div class="grid grid-3">
-          <img src="" class="" />
-          <div class="glass-bio">
+          <img
+            src="
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/122/334/original/pexels-cup-of-couple-8015487.jpg?1712517257"
+            class="skin-content"
+          />
+          <div class="glass-bio skin-content">
             <h3>Get that glass skin</h3>
             <p>Do one easy step to find your skin type</p>
             <button class="skin-btn">Find your glass routine</button>
           </div>
-          <img src="" class="" />
+          <img
+            src="
+
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/122/340/original/pexels-cup-of-couple-8015786.jpg?1712517998"
+            class="skin-content"
+          />
         </div>
       </section>
     </main>
