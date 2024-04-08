@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🧴 Glow Guide</title>
+    <title>🧴 Glow Guide - Find your routine for glass skin</title>
     <meta
       name="description"
       content="As humans we all have different types of skin, whether it's oily, dry, or combination. Each type needs a routine that fits it well and accodates to its needs."
@@ -39,6 +39,13 @@
         display: flex;
         justify-content: space-evenly;
       }
+      .grid-5 {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        display: flex;
+        justify-content: space-evenly;
+        grid-gap: 20px;
+        margin: 0px 30px 70px 30px;
+      }
       /* Banner */
       .main-img {
         width: 100%;
@@ -60,7 +67,7 @@
       }
       h2 {
         text-align: center;
-        margin-top: 90px;
+        padding-top: 90px;
         margin-bottom: 80px;
       }
       .section-img {
@@ -94,10 +101,32 @@
         max-height: 400px;
         object-fit: cover;
       }
+      /* Routine Section */
+      .routine {
+        background-color: #fcb08a;
+        margin-top: -20px;
+        padding-bottom: 30px;
+      }
+      .second-btn {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 65px;
+        border: #f24822 2px solid;
+        border-radius: 5px;
+        color: #f24822;
+        background-color: #fcb08a;
+        margin-bottom: 30px;
+      }
+      .routine-img {
+        width: 100%;
+        height: fit-content;
+      }
     </style>
   </head>
   <body>
-    <nav>Glow Guide</nav>
+    <nav>
+      <p>Glow Guide</p>
+    </nav>
     <main>
       <section class="grid grid-4 main-banner">
         <div>
@@ -166,6 +195,32 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/122/340/origina
             class="skin-content"
           />
         </div>
+      </section>
+      <section class="routine section-width">
+        <h2>What's in a routine?</h2>
+        <div class="grid grid-5">
+          <img
+            src="https://bloomingkoco.com/cdn/shop/files/1_47ca835c-c7e7-43ac-a535-21c36b4540fe.png?v=1700810571&width=493"
+            class="routine-img"
+          />
+          <img
+            src="https://beautyofjoseon.com/cdn/shop/files/1_ed366512-7a8b-481b-aff1-13ff67549ae7.png?v=1705211742"
+            class="routine-img"
+          />
+          <img
+            src="https://beautyofjoseon.com/cdn/shop/files/4_6fc1b668-1cb1-485f-924f-e1ebc459a158.png?v=1705211261"
+            class="routine-img"
+          />
+          <img
+            src="https://koreanskincare.nl/cdn/shop/files/0O8A04282x800.jpg"
+            class="routine-img"
+          />
+          <img
+            src="https://us.laneige.com/cdn/shop/files/LN_WBCM_24AD_Product_02.jpg?crop=center&height=415&v=1703778486&width=415"
+            class="routine-img"
+          />
+        </div>
+        <button class="second-btn">See full routine</button>
       </section>
     </main>
   </body>
